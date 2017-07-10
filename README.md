@@ -1,44 +1,44 @@
-# eslint-config-accelerator
-Collection of ESLint rules to use for all the development environments (ex: nodejs, webpack, etc..,)
+# eslint-config-build-engine
+Collection of ESLint rules to use for all the development environments (ex: nodejs, react, webpack, etc..,)
 
 ## Installation
 
-You'll install `eslint-config-accelerator`:
+You'll install `eslint-config-build-engine`:
 
 ```
-$ npm install eslint-config-accelerator --save-dev
+$ npm install eslint-config-build-engine --save-dev
 ```
 
-**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-coonfig-accelerator` globally.
+**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-coonfig-build-engine` globally.
 
 ## Usage
 
-Add `accelerator` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-config-` prefix:
+Add `build-engine` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-config-` prefix:
 
 ```json
 {
     "extends": [
-        "accelerator"
+        "build-engine"
     ]
 }
 ```
 
-## For Node 
+## For React
 
 ```json
 {
     "extends": [
-        "accelerator/node"
+        "build-engine/react"
     ]
 }
 ```
 
-## For Unit Test Files
+## For Jasmine
 
 ```json
 {
     "extends": [
-        "accelerator/specs"
+        "build-engine/jasmine"
     ]
 }
 ```
@@ -49,7 +49,7 @@ Add `accelerator` to the plugins section of your `.eslintrc` configuration file.
 ```json
 {
     "extends": [
-        "accelerator/lodash"
+        "build-engine/lodash"
     ]
 }
 ```
@@ -59,7 +59,7 @@ Add `accelerator` to the plugins section of your `.eslintrc` configuration file.
 ```json
 {
     "extends": [
-        "accelerator/jest"
+        "build-engine/jest"
     ]
 }
 ```
@@ -69,7 +69,7 @@ Add `accelerator` to the plugins section of your `.eslintrc` configuration file.
 ```json
 {
     "extends": [
-        "accelerator/webpack"
+        "build-engine/webpack"
     ]
 }
 ```
