@@ -7,3 +7,9 @@
 
 ### Fixed execution issues
 - upgraded all the eslint version to latest
+
+## v2.0.1 (June 13, 2018)
+
+### Fixed execution issues
+- upgraded all the eslint version to latest
+- fixed the babel-eslint version to 8.1.0
